@@ -1,0 +1,13 @@
+<html>
+
+<p>Hello there</p>
+
+<h2>All my products</h2>
+{% for product in produtcs %}
+    <p>Name: {{ product.name }}</p>
+    <p>Stock: {{ product.stock }}</p>
+    <p>Price: {{ product.price }}</p>
+{% endfor %}
+
+
+</html>
